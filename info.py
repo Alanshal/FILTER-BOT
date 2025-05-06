@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://wallpaperbat.com/img/213193-high-resolution-naruto-wallpaper-maata-maleby.jpg')).split()
+PICS = (environ.get('PICS', 'https://wallpaperbat.com/img/213193-high-resolution-naruto-wallpaper-maata-maleby.jpg https://i.pinimg.com/736x/b7/39/56/b73956b8ed57ad825ecfb838bafce5c4.jpg https://wallpapers.com/images/hd/naruto-shippuden-epic-battle-artwork-0dwx6e7nx0bahwfq.jpg')).split()
 
 
 # Admins & Users
