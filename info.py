@@ -113,7 +113,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://arlinks.in/st?api=35bf30df800f56ab40299cbd938bbad3afd70f29&url=yourdestinationlink.com')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://arlinks.in')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '35bf30df800f56ab40299cbd938bbad3afd70f29')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/NarutoSeriesUpdates/12')
 
@@ -126,7 +126,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set  Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://arlinks.in/st?api=35bf30df800f56ab40299cbd938bbad3afd70f29&url=yourdestinationlink.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://arlinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '35bf30df800f56ab40299cbd938bbad3afd70f29')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/NarutoSeriesUpdates/12') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
