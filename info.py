@@ -126,9 +126,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set  Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://arlinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '35bf30df800f56ab40299cbd938bbad3afd70f29')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/NarutoSeriesUpdates/12') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
+TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
