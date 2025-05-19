@@ -113,7 +113,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'arlinks.in/')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'arlinks.in')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '35bf30df800f56ab40299cbd938bbad3afd70f29')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/NarutoSeriesUpdates/12')
 
